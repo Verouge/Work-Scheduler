@@ -1,6 +1,6 @@
 $(function () {
   // Display the current date at the top of the calendar
-  const currentDate = dayjs().format("MMMM D, YYYY");
+  const currentDate = dayjs().format("dddd, MMMM DD YYYY");
   $("#currentDay").text(currentDate);
 
   // Generate time blocks from 9am to 5pm
